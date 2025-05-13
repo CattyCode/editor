@@ -85,7 +85,7 @@
   <button id="runCodeBtn">Run Code</button>
 
   <script>
-    // Initialize Blockly workspace without the RunJS category
+    // Initialise Blockly workspace
     const workspace = Blockly.inject('blocklyDiv', {
       toolbox: `
         <xml>
@@ -136,8 +136,7 @@
       trashcan: true
     });
 
-    // No need to define the RunJS block anymore, so we remove the definition.
-
+    
     // Run the generated code when the "Run Code" button is clicked
     document.getElementById('runCodeBtn').addEventListener('click', function() {
       const code = Blockly.JavaScript.workspaceToCode(workspace);
