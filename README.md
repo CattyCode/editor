@@ -9,7 +9,7 @@ CattyCode is a simple web-based Blockly editor that allows users to create JavaS
 - **Customizable Categories**: Variables, Lists, Loops, Logic, Math, Text, and Functions categories for various programming tasks.
 
 ## Live Demo
-You can try out the editor directly here: [CattyCode Editor](https://cattycode.github.io/).
+You can try out the editor directly here: [CattyCode Editor](https://cattycode.github.io/editor/).
 
 ## Setup Instructions
 
@@ -17,7 +17,7 @@ You can try out the editor directly here: [CattyCode Editor](https://cattycode.g
 - An internet connection (for loading external libraries and resources).
 
 ### How to Use
-1. Open the live demo at [CattyCode Editor](https://cattycode.github.io/).
+1. Open the live demo at [CattyCode Editor](https://cattycode.github.io/editor/).
 2. Drag and drop blocks from the toolbox to the workspace.
 3. Click the **Run Code** button to execute the generated JavaScript code.
 
